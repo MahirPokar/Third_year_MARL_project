@@ -14,12 +14,12 @@
 
 <!-- Environments-->
 # Environments
-This project implements three different Q-learning algorithms. The Environment for the tabular methods are Implemented by myself. However for deep RL methods, the environment was taken from the following git repository, as cited in the report. 
-[LBF environment](https://github.com/semitable/lb-foraging). The environment is provided under MIT [License](./LICENSE). Even Though I have included the code environment software here it is recommended to first install the environment from the link provided above, and then test the algorithms seperately. 
+This project implements three different Q-learning algorithms. The Environment for the tabular methods are Implemented by myself. However for deep RL methods, the [Level-based Foraging environment](https://github.com/semitable/lb-foraging) created by Filippos Christianos was used. 
+ The environment is provided under MIT [License](./LICENSE). Even Though the environment source code  have been included, it is recommended to first install the environment from the link provided above, and then test the algorithms seperately. 
 
 <!-- TAB-->
 # Tabular Q-learning 
-The [Single Agent case](./IMPLEMENTATIONS/Tabular.py) and the [multi agent case](./MPLEMENTATIONS/Tabular_multi.py) both store the action values in a python dictionary object, with states acting as keys. For the single agent case each state has a list of 4 action values. In the multi agent case each state has a list of 16 action values, as a joint policy is implemented. The [util](/IMPLEMENTATIONS/util.py) provides the code for ploting the results. 
+The [Single Agent case](./IMPLEMENTATIONS/Tabular.py) and the [multi agent case](./MPLEMENTATIONS/Tabular_multi.py) both store the action values in a python dictionary object, with states acting as keys. For the single agent case each state has a list of 4 action values. In the multi agent case each state has a list of 16 action values, as a joint policy is implemented. The [util](/IMPLEMENTATIONS/util.py) file provides the code for ploting the results. 
 
 <!-- DEEP-->
 # Deep Q-learning
