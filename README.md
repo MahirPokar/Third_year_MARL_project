@@ -15,7 +15,7 @@
 <!-- Environments-->
 # Environments
 This project implements three different Q-learning algorithms. The Environment for the tabular methods are Implemented by myself. However for deep RL methods, the [Level-based Foraging environment](https://github.com/semitable/lb-foraging) created by Filippos Christianos was used. 
- The environment is provided under MIT [License](./LICENSE). Even Though the environment source code  have been included, it is recommended to first install the environment from the link provided above, and then test the algorithms seperately. 
+ The environment is provided under MIT [License](./LICENSE).It is recommended to first install the environment from the link provided above, and then test the algorithms seperately. It is recommended to clone the enviroment git repository in a python virtual environment with python version 3.7 or older. Then this git can be cloned executed. 
 
 <!-- TAB-->
 # Tabular Q-learning 
