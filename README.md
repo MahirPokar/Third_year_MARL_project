@@ -7,7 +7,7 @@
 - [Environments](#Environments)
 - [Tabular Q-learning](#TAB)
 - [Deep Q-learning](#DEEP)
-
+- [Known Issues and Bugs](#BUG)
 
 
 
@@ -15,7 +15,7 @@
 <!-- Environments-->
 # Environments
 This project implements three different Q-learning algorithms. The Environment for the tabular methods are Implemented by myself. However for deep RL methods, the [Level-based Foraging environment](https://github.com/semitable/lb-foraging) created by Filippos Christianos was used. 
- The environment is provided under MIT [License](./LICENSE).It is recommended to first install the environment from the link provided above, and then test the algorithms seperately. It is recommended to clone the enviroment git repository in a python virtual environment with python version 3.7 or older. Then this git can be cloned executed. 
+ The environment is provided under MIT [License](./LICENSE).It is recommended to first install the environment from the link provided above, and then test the algorithms seperately. It is recommended to clone the enviroment git repository in a python virtual environment with python version 3.7 or older. Then this git can be cloned executed. The [requirements](/requirements.txt) file provide the required python modules. 
 
 <!-- TAB-->
 # Tabular Q-learning 
@@ -31,3 +31,6 @@ The [DQN agent](/IMPLEMENTATIONS/DQN_agent.py)  fixes the convergence issues by 
 
 To change the environment to a forced_coop settings, the authors recommend declaring a new environment as described in their [documentation](https://github.com/semitable/lb-foraging), however this can also be done by explicitely changing the forced_coop boolean value in the environment source code. The [DQN agent with reward shaping](/IMPLEMENTATIONS/DQN_forced_coop.py) is able to successfully learn how to act in under the forced cooperation contraint. 
 
+<!-- BUG-->
+# Known Issues 
+1. The requirements file neeeds to be updated to remove unecessary requirements. 
